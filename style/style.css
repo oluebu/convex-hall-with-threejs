@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #fff;
+    font-family:Monospace;
+    font-size:13px;
+    text-align:center;
+
+    background-color: #050505;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#title	{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+h1 {
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #fff;
+    margin: 0 auto;
+    width: 80%;
+}
+
+a {
+    color: blue
+}
+#info {
+    position: absolute;
+    top: 0px; width: 100%;
+    padding: 5px;
+}
+#insructions {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    width: 400px;
+    background-color:blue;
+}
